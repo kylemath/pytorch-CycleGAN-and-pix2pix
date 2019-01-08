@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*
 """General-purpose training script for image-to-image translation.
 
 This script works for various models (with option '--model': e.g., pix2pix, cyclegan, colorization) and
@@ -18,7 +20,6 @@ See options/base_options.py and options/train_options.py for more training optio
 See training and test tips at: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/tips.md
 See frequently asked questions at: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/qa.md
 """
-# -*- coding: utf-8 -*-
 import time
 from options.train_options import TrainOptions
 from data import create_dataset
